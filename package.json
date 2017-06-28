@@ -1,0 +1,29 @@
+{
+  "name": "browser-test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node express.js"
+  },
+  "author": {
+    "name": "Li Debug",
+    "email": "returninfinity8@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ajaxmanager": "1.0.3",
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "libraryjs": "3.0.0",
+    "mongojs": "2.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.18.12",
+    "fcrypt": "1.1.1",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-clean": "0.3.2",
+    "gulp-concat": "2.6.1",
+    "gulp-sass": "3.1.0",
+    "gulp-sync": "0.1.4"
+  }
+}

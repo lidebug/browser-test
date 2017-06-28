@@ -1,0 +1,4 @@
+node_modules
+bower_components
+front-end/app/dist
+back-end/private
