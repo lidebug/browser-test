@@ -1,7 +1,7 @@
-var path = require("path");
-var fs = require("fs");
+const path = require('path');
+const fs = require('fs');
 
-var mlabPath = path.join( process.cwd(), "/back-end/private/mlab.json" );
+const mlabPath = path.join( process.cwd(), "/back-end/private/mlab.json" );
 if (fs.existsSync(mlabPath)) var mlab = require(mlabPath);
 else var mlab = { error: true };
 

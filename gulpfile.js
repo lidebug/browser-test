@@ -47,9 +47,7 @@ var compileSass = (src) => {
 
 gulp.task("sass", () => {
   return compileSass([
-    path.join( process.cwd(), "/node_modules/@angular/material/_theming.scss" ), //Angular Material Themes Builder
-    path.join( appPath, "/**/style/default/*.scss" ), // Global variables
-    path.join( appPath, "/**/*.scss" ) // Styles
+    path.join( appPath, "/**/*.scss" )
   ]);
 });
 

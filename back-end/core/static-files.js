@@ -1,4 +1,6 @@
-module.exports = (express, app) => {
+const express = require('express');
+
+module.exports = (app) => {
 
   app.use("/node_modules", express.static("./node_modules"), (req, res, next) => {
     next();

@@ -1,12 +1,12 @@
-var express = require("express");
+const express = require("express");
 
 var app = express();
 
 // —————————————————————— Default Values ——————————————————————
-var defaults = require( "./back-end/core/defaults" )();
+const defaults = require( "./back-end/core/defaults" )();
 
 // —————————————————————— Static Files ——————————————————————
-require( "./back-end/core/static-files" )(express, app);
+require( "./back-end/core/static-files" )(app);
 
 // —————————————————————— POST ——————————————————————
 require( "./back-end/core/post" )(app);

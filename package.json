@@ -2,7 +2,10 @@
   "name": "browser-test",
   "version": "1.0.0",
   "scripts": {
-    "start": "node express.js"
+    "start": "node express.js",
+    "compile": "gulp compile",
+    "static": "gulp static",
+    "auto": "gulp auto"
   },
   "author": {
     "name": "Li Debug",
@@ -10,11 +13,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "ajaxmanager": "1.0.3",
-    "body-parser": "1.17.2",
-    "express": "4.15.3",
-    "libraryjs": "3.0.0",
-    "mongojs": "2.4.0"
+    "ajaxmanager": "^1.1.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "libraryjs": "^5.2.0",
+    "mongoshell": "^1.0.0"
   },
   "devDependencies": {
     "browser-sync": "2.18.12",
@@ -24,6 +27,7 @@
     "gulp-clean": "0.3.2",
     "gulp-concat": "2.6.1",
     "gulp-sass": "3.1.0",
-    "gulp-sync": "0.1.4"
+    "gulp-sync": "0.1.4",
+    "npm-run-all": "4.1.2"
   }
 }

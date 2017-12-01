@@ -1,5 +1,5 @@
-var mongoshell = require("mongoshell");
-var js = require("libraryjs");
+const mongoshell = require('mongoshell');
+const js = require('libraryjs');
 
 var checkAdmin = (param) => {
 
@@ -41,16 +41,3 @@ module.exports = {
   admin: checkAdmin,
   denied: denied
 };
-
-// //How to use
-// access.admin({
-//   ajax: ajax,
-//   cookie: cookie,
-//   callback: (greenlight) => {
-//     if (!greenlight) {
-//       access.denied(ajax);
-//       return;
-//     }
-//     //...
-//   }
-// });
